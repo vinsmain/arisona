@@ -10,7 +10,7 @@ public class PolygonColliderHover : MonoBehaviour {
 	}
 
 	void OnMouseOver() {
-		spriteRenderer.color = Color.red;
+		spriteRenderer.color = Color.yellow;
 	}
 
 	void OnMouseExit() {
